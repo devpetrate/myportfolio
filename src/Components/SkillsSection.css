@@ -1,0 +1,35 @@
+.skillswrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  height: auto;
+  color: #fdfdfd;
+  padding: 100px 0px;
+}
+.skillswrapper h1 {
+  font-size: 50px;
+  width: auto;
+}
+.skillswrapper section {
+  align-self: center;
+}
+.skillicons h2 {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.skillicons img {
+  width: auto;
+}
+@media screen and (max-width: 760px) {
+  .skillswrapper section {
+    align-self: start;
+  }
+  .skillicons img {
+    width: 345px;
+  }
+}
+@media (width<= 322px) {
+  .skillicons img {
+    width: 285px;
+  }
+}

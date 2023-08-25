@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useEffect } from 'react';
+import GeneralMain from './Components/GeneralMain';
+import Nav from './Components/Nav';
+
 
 function App() {
+  useEffect(() => {
+    const handleVisibilityChange = () => {
+      if (document.hidden) {
+        document.title = 'Don\'t Forget To Hire Me!';
+      } else {
+        document.title = 'Need A Web Developer? Hire Me!';
+      }
+    };
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+
+    return () => {
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+    };
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav />
+      <GeneralMain />
     </div>
   );
 }

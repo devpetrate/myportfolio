@@ -1,0 +1,104 @@
+.navcontainer {
+  padding: 24px;
+  margin: 0px 144px;
+}
+.navcontainer div {
+  display: flex;
+  justify-content: space-between;
+}
+.navimg {
+  width: 3rem;
+  height: 3rem;
+}
+#navul {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  list-style: none;
+  padding: 0.63rem;
+  color: #fdfdfd;
+  font-size: 1rem;
+}
+.hamburger {
+  display: none;
+}
+@media screen and (max-width: 760px) {
+  #navul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute; /* Position the menu list */
+    top: 15%; /* Position below the parent item */
+    left: 0%;
+    background-color: #010101;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  #navul.active1 {
+    display: flex;
+  }
+
+  .hamburger {
+    width: 50px;
+    height: 30px;
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+  }
+  .hamburger::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    margin: auto;
+  }
+  .hamburger span,
+  .hamburger::after {
+    height: 6px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #ffffff;
+    transition: width 300ms;
+  }
+
+  .hamburger.active::after {
+    display: none;
+  }
+  .hamburger.active span {
+    background-color: #b94530;
+  }
+  .hamburger.active span:nth-child(1) {
+    width: 70%;
+    animation: customAnimation1 300ms ease forwards;
+    /* transform: rotage(30deg) translateY(12px) translateX(4px); */
+  }
+  @keyframes customAnimation1 {
+    to {
+      transform: rotate(30deg) translateY(12px) translateX(3px);
+    }
+  }
+  .hamburger.active span:nth-child(2) {
+    width: 70%;
+    animation: customAnimation2 300ms ease forwards;
+  }
+  @keyframes customAnimation2 {
+    to {
+      transform: rotate(-30deg) translateY(-12px) translateX(3px);
+    }
+  }
+}
+@media screen and (width <= 1024px) {
+  .navcontainer {
+    margin: 0px;
+  }
+}
+@media screen and (width >= 2440px) {
+  .navcontainer {
+    margin: 0px 705px;
+  }
+}

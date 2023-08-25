@@ -1,0 +1,20 @@
+.generalmainswrapper {
+  padding: 0px 24px;
+  margin: 0px 144px;
+}
+
+hr {
+  background-color: #b94530;
+  height: 4px;
+  border: none;
+}
+@media screen and (width <= 1024px) {
+  .generalmainswrapper {
+    margin: 0px;
+  }
+}
+@media screen and (width >= 2440px) {
+  .generalmainswrapper {
+    margin: 0px 705px;
+  }
+}
