@@ -94,7 +94,7 @@ function ContactSection() {
                     className='contactmessageboxwrapper'
                     onSubmit={handleSubmit} >
                     <input
-                        type='text'
+                        type='email'
                         name='entry.145471532'
                         placeholder='Email'
                         value={email}
@@ -113,7 +113,7 @@ function ContactSection() {
                         value={message}
                         onChange={(e) => setMessage(e.target.value)}
                     ></textarea>
-                    <button type='submit'>Contact Me!</button>
+                    <button disabled={!name || !email || !message} type='submit'>Contact Me!</button>
                     {submitted && <p>Thank You! Your response has been noted.</p>}
                 </form>
             </section>

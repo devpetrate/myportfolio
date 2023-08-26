@@ -1,9 +1,11 @@
 import AboutSection from "./AboutSection"
+import CertificationSection from "./CerificationSection"
 import ContactSection from "./ContactSection"
 import "./GeneralMain.css"
 import Mainsection from "./MainSection"
 import Portfoliofullpage from "./PortfolioFullPage"
 import Portfoliosection from "./PortfolioSection"
+import SkillsNCodeSnippetSection from "./SkillsNCodeSnippetSection"
 import SkillsSection from "./SkillsSection"
 import { Routes, Route } from 'react-router-dom';
 
@@ -28,6 +30,25 @@ function GeneralMain() {
                         path="/portfolio"
                         element={<>
                             <Portfoliofullpage /><hr />
+                            <ContactSection />
+                        </>
+                        }></Route>
+                </Routes>
+                <Routes>
+                    <Route
+                        path="/about"
+                        element={<>
+                            <AboutSection /><hr />
+                            <CertificationSection /><hr />
+                            <ContactSection />
+                        </>
+                        }></Route>
+                </Routes>
+                <Routes>
+                    <Route
+                        path="/skills"
+                        element={<>
+                            <SkillsNCodeSnippetSection /><hr />
                             <ContactSection />
                         </>
                         }></Route>

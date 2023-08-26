@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     const handleVisibilityChange = () => {
       if (document.hidden) {
-        document.title = 'Don\'t Forget To Hire Me!';
+        document.title = 'Don\'t Forget To Hire Me 🥺';
       } else {
         document.title = 'Need A Web Developer? Hire Me!';
       }

@@ -1,0 +1,17 @@
+.sncswrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.sncsjobwrapper {
+  width: 50%;
+}
+@media screen and (max-width: 525px) {
+  .sncswrapper {
+    flex-direction: column;
+  }
+  .sncsjobwrapper {
+    width: 100%;
+  }
+}

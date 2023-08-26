@@ -28,9 +28,12 @@ function Nav() {
                         <Link to="/portfolio">
                             <li onClick={handleListItemClick}> PORTFOLIO</li>
                         </Link>
-                        <li onClick={handleListItemClick}>SKILLS</li>
-                        <li onClick={handleListItemClick}>RESUME</li>
-                        <li onClick={handleListItemClick}>ABOUT</li>
+                        <Link to="/skills"><li onClick={handleListItemClick}>SKILLS</li></Link>
+                        <a href="https://drive.google.com/file/d/1xQ7Pt8OFnoEvjiOYX6TkNalhVdgwJ95u/view?usp=sharing"
+                            target="_blank"
+                            rel="noreferrer">
+                            <li onClick={handleListItemClick}>RESUME</li></a>
+                        <Link to="/about"><li onClick={handleListItemClick}>ABOUT</li></Link>
                         <a href="#contact">
                             <li onClick={handleListItemClick}>CONTACT</li>
                         </a>
