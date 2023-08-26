@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.47b47edf.css",
-    "main.js": "/myportfolio/static/js/main.778fe1a9.js",
+    "main.css": "/myportfolio/static/css/main.b297d92c.css",
+    "main.js": "/myportfolio/static/js/main.084a228b.js",
     "static/js/787.1ed0c42c.chunk.js": "/myportfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/littlelemon.png": "/myportfolio/static/media/littlelemon.b48337097cbfea68c461.png",
-    "static/media/interactivecard.png": "/myportfolio/static/media/interactivecard.3c7df39e4f2c2add6ec8.png",
+    "static/media/interactivecard.png": "/myportfolio/static/media/interactivecard.14e5d887339b5c112de3.png",
     "static/media/mainlogo.png": "/myportfolio/static/media/mainlogo.3012a8cdded01e2d0737.png",
     "static/media/Internet.svg": "/myportfolio/static/media/Internet.ab725636d5ad2224b41d115c6c431e98.svg",
     "static/media/GitHub.svg": "/myportfolio/static/media/GitHub.6fbf5dd56b1d4608b4c70e3154987716.svg",
@@ -17,12 +17,12 @@
     "static/media/htmlsign.svg": "/myportfolio/static/media/htmlsign.15551ad6e3a4cafd3c4f10e0eed8997d.svg",
     "static/media/reactsign.svg": "/myportfolio/static/media/reactsign.b71eeb5707b6e2c42160599cb0dba4ff.svg",
     "static/media/uisign.svg": "/myportfolio/static/media/uisign.b6dc09517fc1c81d9a748f0f060c4e75.svg",
-    "main.47b47edf.css.map": "/myportfolio/static/css/main.47b47edf.css.map",
-    "main.778fe1a9.js.map": "/myportfolio/static/js/main.778fe1a9.js.map",
+    "main.b297d92c.css.map": "/myportfolio/static/css/main.b297d92c.css.map",
+    "main.084a228b.js.map": "/myportfolio/static/js/main.084a228b.js.map",
     "787.1ed0c42c.chunk.js.map": "/myportfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.47b47edf.css",
-    "static/js/main.778fe1a9.js"
+    "static/css/main.b297d92c.css",
+    "static/js/main.084a228b.js"
   ]
 }
