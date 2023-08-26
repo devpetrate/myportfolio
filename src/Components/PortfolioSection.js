@@ -4,7 +4,7 @@ import Portimg1 from '../images/interactivecard.png'
 import gitlogo from '../images/GitHub.svg'
 import weblogo from '../images/Internet.svg'
 import portimg2 from '../images/littlelemon.png'
-
+import { Link } from 'react-router-dom';
 
 
 function Portfoliosection() {
@@ -37,7 +37,7 @@ function Portfoliosection() {
                 </div>
                 <img className='workpic' src={portimg2} alt="" />
             </section>
-            <button>Explore More!</button>
+            <Link to="/portfolio"><button>Explore More!</button></Link>
         </div>
     )
 }
