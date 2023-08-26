@@ -28,12 +28,11 @@
   border-radius: 16px;
   padding: 20px 20px 20px 20px;
 }
-.portfoliojobswrapper img {
-  border-radius: 16px;
-}
+
 .workpic {
-  width: 436px;
+  width: 435px;
   height: 215px;
+  border-radius: 16px;
 }
 .portwordswrapper h2 {
   margin-top: 2rem;
