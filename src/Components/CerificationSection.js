@@ -33,9 +33,7 @@ function CertificationSection() {
                             rel="noreferrer">Certificate Page</a></p>
                     </div>
                 </div>
-                <a href="https://coursera.org/share/d5835975b0e7481499ac501328421c23"
-                    target="_blank"
-                    rel="noreferrer"><img className='workpic' src={cert1} alt="" /></a>
+                <img className='workpic' src={cert1} alt="" />
             </section>
             <section className='portfoliojobswrapper'>
                 <div className='portwordswrapper'>
@@ -58,9 +56,7 @@ function CertificationSection() {
                             rel="noreferrer">Certificate Page</a></p>
                     </div>
                 </div>
-                <a href="https://www.freecodecamp.org/certification/Petrate/front-end-development-libraries"
-                    target="_blank"
-                    rel="noreferrer"><img className='workpic' src={cert2} alt="" /></a>
+                <img className='workpic' src={cert2} alt="" />
             </section>
             <section className='portfoliojobswrapper'>
                 <div className='portwordswrapper'>
@@ -82,9 +78,7 @@ function CertificationSection() {
                             rel="noreferrer">Certificate Page</a></p>
                     </div>
                 </div>
-                <a href="https://www.freecodecamp.org/certification/Petrate/javascript-algorithms-and-data-structures"
-                    target="_blank"
-                    rel="noreferrer"><img className='workpic' src={cert3} alt="" /></a>
+                <img className='workpic' src={cert3} alt="" />
             </section>
             <section className='portfoliojobswrapper'>
                 <div className='portwordswrapper'>
@@ -106,9 +100,7 @@ function CertificationSection() {
                             rel="noreferrer">Certificate Page</a></p>
                     </div>
                 </div>
-                <a href="https://www.freecodecamp.org/certification/Petrate/responsive-web-design"
-                    target="_blank"
-                    rel="noreferrer"><img className='workpic' src={cert4} alt="" /></a>
+                <img className='workpic' src={cert4} alt="" />
             </section>
         </div>
     )

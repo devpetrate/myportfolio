@@ -82,7 +82,8 @@
   .portlogowrapper p {
     margin-top: 0.5rem;
   }
-  .portfoliojobswrapper img {
+  .portfoliojobswrapper img,
+  .workpic {
     width: auto;
   }
   .portlogowrapper img {
