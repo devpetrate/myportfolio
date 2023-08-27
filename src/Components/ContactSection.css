@@ -101,11 +101,11 @@ footer {
 
 .contactmessageboxwrapper button:active {
   transform: translate(2px 2px);
-  box-shadow: 0px 0px 0px #bc635c;
+  box-shadow: 0px 0px 0px #ffffff;
 }
 .contactmessageboxwrapper button:disabled {
   &:active {
-    box-shadow: 5px 5px 0px #bc635c;
+    box-shadow: 5px 5px 0px #ffffff;
   }
 }
 .contactmessageboxwrapper p {
