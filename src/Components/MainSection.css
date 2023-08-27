@@ -2,7 +2,7 @@
   height: auto;
   display: flex;
   justify-content: space-between;
-  padding: 100px 0px;
+  padding-bottom: 100px;
 }
 .mainword {
   display: flex;
@@ -53,7 +53,7 @@
     background-image: url(../images/mainlogo.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: #ffd700;
+    background-color: #ffd900;
     background-blend-mode: darken;
   }
   .mainwrapper img {
