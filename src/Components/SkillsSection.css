@@ -3,12 +3,15 @@
   flex-direction: column;
   gap: 80px;
   height: auto;
-  color: #fdfdfd;
+  color: #ffffff;
   padding: 100px 0px;
 }
 .skillswrapper h1 {
   font-size: 50px;
   width: auto;
+  color: #001f3f;
+  font-family: "Playfair Display", serif;
+  font-family: 800;
 }
 .skillswrapper section {
   align-self: center;
@@ -16,6 +19,8 @@
 .skillicons h2 {
   padding-top: 2rem;
   padding-bottom: 1rem;
+  color: #001f3f;
+  font-weight: 800;
 }
 .skillicons img {
   width: auto;

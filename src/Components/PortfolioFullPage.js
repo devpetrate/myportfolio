@@ -12,12 +12,12 @@ import portimg5 from '../images/loginform.png'
 
 function Portfoliofullpage() {
 
-    const pfpstyles = {
-        padding: "0px 0px 100px 0px"
-    };
+    // const pfpstyles = {
+    //     padding: "0px 0px 100px 0px"
+    // };
 
     return (
-        <div className='portfoliowrapper' style={pfpstyles}>
+        <div className='portfoliowrapper'>
             <h1><span class="underline">Po</span>rtfolio</h1>
             <section className='portfoliojobswrapper'>
                 <div className='portwordswrapper'>

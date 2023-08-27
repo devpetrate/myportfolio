@@ -1,10 +1,11 @@
 .generalmainswrapper {
   padding: 0px 24px;
   margin: 0px 144px;
+  background-color: #ffd700;
 }
 
 hr {
-  background-color: #b94530;
+  background-color: #001f3f;
   height: 4px;
   border: none;
 }

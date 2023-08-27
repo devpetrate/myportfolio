@@ -1,12 +1,26 @@
+footer {
+  padding: 0px 24px;
+  margin: 0px 144px;
+  background-color: #001f3f;
+}
 .contactwrapper {
   display: flex;
   flex-direction: column;
   height: auto;
   gap: 40px;
-  color: #fdfdfd;
   padding: 100px 0px;
 }
-
+.contactwrapper h1 {
+  font-family: "Playfair Display", serif;
+  color: #ffffff;
+  font-family: 800;
+  font-size: 50px;
+}
+.under1 {
+  text-decoration: underline;
+  text-decoration-color: #ffd700;
+  text-decoration-thickness: 4px;
+}
 .contactwrapper section {
   display: flex;
   justify-content: space-between;
@@ -16,8 +30,10 @@
 }
 .contactlogowrapper div p {
   align-self: center;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   font-weight: bold;
+  color: #ffffff;
 }
 
 .contactmessageboxwrapper {
@@ -31,16 +47,16 @@
   border-radius: 16px;
   margin: 10px 0px;
   padding: 20px 20px;
-  background-color: #9c9b9b;
-  color: #fdfdfd;
+  background-color: #ffffff;
+  color: #001f3f;
   font-weight: bold;
   font-size: 20px;
 }
 .contactmessageboxwrapper input::placeholder {
-  color: #fdfdfd;
+  color: #001f3f;
   font-weight: bold;
   font-size: 20px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .contactmessageboxwrapper textarea {
@@ -50,20 +66,20 @@
   border-radius: 16px;
   margin: 10px 0px;
   padding: 20px 20px;
-  background-color: #9c9b9b;
-  color: #fdfdfd;
+  background-color: #ffffff;
+  color: #001f3f;
   font-weight: bold;
   font-size: 20px;
 }
 .contactmessageboxwrapper textarea::placeholder {
-  color: #fdfdfd;
+  color: #001f3f;
   font-weight: bold;
   font-size: 20px;
-  font-family: "Manrope", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .contactmessageboxwrapper input:focus,
 .contactmessageboxwrapper textarea:focus {
-  outline: 3px outset #b94530;
+  outline: 4px outset #ffd700;
 }
 .contactmessageboxwrapper button {
   width: 190px;
@@ -75,32 +91,33 @@
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
-  border: 4px solid #686868;
+  border: 4px solid #ffd700;
   border-radius: 16px;
-  background-color: #fdfdfd;
-  color: #686868;
-  box-shadow: 5px 5px 0px #b94530;
+  background-color: #001f3f;
+  color: #ffd700;
+  box-shadow: 5px 5px 0px #ffffff;
   transition: transform 0.1s, box-shadow 0.1s;
 }
 
 .contactmessageboxwrapper button:active {
   transform: translate(2px 2px);
-  box-shadow: 0px 0px 0px #b94530;
+  box-shadow: 0px 0px 0px #bc635c;
 }
 .contactmessageboxwrapper button:disabled {
   &:active {
-    box-shadow: 5px 5px 0px #b94530;
+    box-shadow: 5px 5px 0px #bc635c;
   }
 }
 .contactmessageboxwrapper p {
   font-size: 10px;
-  color: #fdfdfd;
+  color: #ffffff;
   margin-top: 10px;
 }
 .contactrights p {
   width: auto;
+  font-family: "Inconsolata", monospace;
   font-size: 15px;
-  font-weight: bold;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 760px) {
@@ -123,5 +140,15 @@
   .contactlogowrapper div img {
     width: 47px;
     height: 38px;
+  }
+}
+@media screen and (width <= 1024px) {
+  footer {
+    margin: 0px;
+  }
+}
+@media screen and (width >= 2440px) {
+  footer {
+    margin: 0px 705px;
   }
 }

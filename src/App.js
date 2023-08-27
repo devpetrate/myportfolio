@@ -2,6 +2,7 @@ import './App.css';
 import React, { useEffect } from 'react';
 import GeneralMain from './Components/GeneralMain';
 import Nav from './Components/Nav';
+import ContactSection from './Components/ContactSection'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
     <div className="App">
       <Nav />
       <GeneralMain />
+      <ContactSection />
     </div>
   );
 }

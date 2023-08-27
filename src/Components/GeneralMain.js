@@ -1,6 +1,5 @@
 import AboutSection from "./AboutSection"
 import CertificationSection from "./CerificationSection"
-import ContactSection from "./ContactSection"
 import "./GeneralMain.css"
 import Mainsection from "./MainSection"
 import Portfoliofullpage from "./PortfolioFullPage"
@@ -20,8 +19,8 @@ function GeneralMain() {
                             <Mainsection /><hr />
                             <Portfoliosection /><hr />
                             <SkillsSection /><hr />
-                            <AboutSection /><hr />
-                            <ContactSection />
+                            <AboutSection />
+
                         </>
                         }></Route>
                 </Routes>
@@ -29,8 +28,8 @@ function GeneralMain() {
                     <Route
                         path="/portfolio"
                         element={<>
-                            <Portfoliofullpage /><hr />
-                            <ContactSection />
+                            <Portfoliofullpage />
+
                         </>
                         }></Route>
                 </Routes>
@@ -39,8 +38,8 @@ function GeneralMain() {
                         path="/about"
                         element={<>
                             <AboutSection /><hr />
-                            <CertificationSection /><hr />
-                            <ContactSection />
+                            <CertificationSection />
+
                         </>
                         }></Route>
                 </Routes>
@@ -48,8 +47,8 @@ function GeneralMain() {
                     <Route
                         path="/skills"
                         element={<>
-                            <SkillsNCodeSnippetSection /><hr />
-                            <ContactSection />
+                            <SkillsNCodeSnippetSection />
+
                         </>
                         }></Route>
                 </Routes>
