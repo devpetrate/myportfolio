@@ -49,13 +49,13 @@
 }
 
 @media screen and (max-width: 760px) {
-  .mainword {
+  /* .mainword {
     background-image: url(../images/mainlogo.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #ffd900;
     background-blend-mode: darken;
-  }
+  } */
   .mainwrapper img {
     display: none;
   }
