@@ -43,10 +43,11 @@
     position: absolute; /* Position the menu list */
     top: 15%; /* Position below the parent item */
     left: 0%;
-    background-color: #ffd700;
+    background-color: #001f3f;
+    color: #ffffff;
     font-weight: bolder;
     opacity: 0.95;
-    border: 4px solid #001f3f;
+    border: 4px solid #ffffff;
     border-radius: 16px;
   }
 
