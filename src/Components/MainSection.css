@@ -38,6 +38,7 @@
   transform: translate(2px 2px);
   box-shadow: 0px 0px 0px #b94530;
 }
+
 @media screen and (max-width: 760px) {
   .mainword {
     background-image: url(../images/mainlogo.png);

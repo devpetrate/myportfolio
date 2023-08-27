@@ -13,7 +13,8 @@ function AboutSection() {
             <p>My GitHub repository showcases diverse projects where I've translated my learning
                 into tangible web solutions, spanning interactive interfaces to responsive layouts. As I continue to
                 learn, build, and grow, I am excited about the potential to create meaningful and impactful
-                technological solutions. With a strong foundation in responsive web design, JavaScript, and
+                technological solutions.</p>
+            <p>With a strong foundation in responsive web design, JavaScript, and
                 front-end libraries, I am poised to embrace new challenges and contribute positively to the
                 dynamic world of technology. I'm enthusiastic about the opportunity to collaborate with experienced
                 developers, bringing fresh insights and a strong foundation in front-end development to future projects.</p>

@@ -23,7 +23,8 @@ function Nav() {
                         className={`hamburger ${menuOpen ? "active" : ""}`}
                         onClick={toggleMenu}>
                         <span></span>
-                        <span></span></button>
+                        <span></span>
+                    </button>
                     <ul id="navul" className={menuOpen ? 'active1' : ''}>
                         <Link to="/portfolio">
                             <li onClick={handleListItemClick}> PORTFOLIO</li>

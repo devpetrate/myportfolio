@@ -14,12 +14,20 @@ function Portfoliosection() {
             <section className='portfoliojobswrapper'>
                 <div className='portwordswrapper'>
                     <h2>Interactive Card</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Built using: HTML, CSS and JavaScript</p>
                     <div className='portlogowrapper'>
-                        <img src={gitlogo} alt="gitlogo" />
-                        <p>Github</p>
-                        <img src={weblogo} alt="gitlogo" />
-                        <p>Website</p>
+                        <a href="https://github.com/devpetrate/interactive-card"
+                            target="_blank"
+                            rel="noreferrer"><img src={gitlogo} alt="gitlogo" /></a>
+                        <p><a href="https://github.com/devpetrate/interactive-card"
+                            target="_blank"
+                            rel="noreferrer">Github</a></p>
+                        <a href="https://devpetrate.github.io/interactive-card/"
+                            target="_blank"
+                            rel="noreferrer"><img src={weblogo} alt="gitlogo" /></a>
+                        <p><a href="https://devpetrate.github.io/interactive-card/"
+                            target="_blank"
+                            rel="noreferrer">Website</a></p>
                     </div>
                 </div>
                 <img className='workpic' src={Portimg1} alt="" />
@@ -27,12 +35,20 @@ function Portfoliosection() {
             <section className='portfoliojobswrapper'>
                 <div className='portwordswrapper'>
                     <h2>Little Lemon Restaurant</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Built using: React</p>
                     <div className='portlogowrapper'>
-                        <img src={gitlogo} alt="gitlogo" />
-                        <p>Github</p>
-                        <img src={weblogo} alt="gitlogo" />
-                        <p>Website</p>
+                        <a href="https://github.com/devpetrate/Little-Lemon"
+                            target="_blank"
+                            rel="noreferrer"><img src={gitlogo} alt="gitlogo" /></a>
+                        <p><a href="https://github.com/devpetrate/Little-Lemon"
+                            target="_blank"
+                            rel="noreferrer">Github</a></p>
+                        <a href="https://devpetrate.github.io/Little-Lemon/"
+                            target="_blank"
+                            rel="noreferrer"><img src={weblogo} alt="gitlogo" /></a>
+                        <p><a href="https://devpetrate.github.io/Little-Lemon/"
+                            target="_blank"
+                            rel="noreferrer">Website</a></p>
                     </div>
                 </div>
                 <img className='workpic' src={portimg2} alt="" />
