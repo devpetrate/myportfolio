@@ -1,6 +1,7 @@
 footer {
-  padding: 0px 24px;
-  margin: 0px 144px;
+  /* padding: 0px 24px;
+  margin: 0px 144px; */
+  padding: 0px 168px;
   background-color: #001f3f;
 }
 .contactwrapper {
@@ -144,11 +145,13 @@ footer {
 }
 @media screen and (width <= 1024px) {
   footer {
-    margin: 0px;
+    padding: 0px 24px;
+    /* margin: 0px; */
   }
 }
 @media screen and (width >= 2440px) {
   footer {
-    margin: 0px 705px;
+    /* margin: 0px 705px; */
+    padding: 0px 729px;
   }
 }

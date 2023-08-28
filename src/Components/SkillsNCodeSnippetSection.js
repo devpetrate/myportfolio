@@ -21,26 +21,6 @@ function SkillsNCodeSnippetSection() {
                 <section className='sncswrapper'>
                     <section className='portfoliojobswrapper sncsjobwrapper'>
                         <div className='portwordswrapper'>
-                            <h2><a href="https://codepen.io/Peter-Adelakun"
-                                target="_blank"
-                                rel="noreferrer">CodePen</a></h2>
-                            <p>Explore my CodePen portfolio for concise and elegant code snippets that
-                                showcase my expertise in creating responsive web elements with meticulous attention to detail,
-                                delivering seamless user experiences with a touch of creativity.
-                                Each snippet exemplifies my proficiency in HTML, CSS, and JavaScript,
-                                capturing the essence of modern web design and interactivity.</p>
-                            <div className='portlogowrapper'>
-                                <a href="https://codepen.io/Peter-Adelakun"
-                                    target="_blank"
-                                    rel="noreferrer"><img src={cp} alt="CPlogo" /></a>
-                                <p><a href="https://codepen.io/Peter-Adelakun"
-                                    target="_blank"
-                                    rel="noreferrer">View my pen</a></p>
-                            </div>
-                        </div>
-                    </section>
-                    <section className='portfoliojobswrapper sncsjobwrapper'>
-                        <div className='portwordswrapper'>
                             <h2><a href="https://github.com/devpetrate?tab=repositories"
                                 target="_blank"
                                 rel="noreferrer">GitHub Repositories</a></h2>
@@ -56,6 +36,26 @@ function SkillsNCodeSnippetSection() {
                                 <p><a href="https://github.com/devpetrate?tab=repositories"
                                     target="_blank"
                                     rel="noreferrer">View my repositories</a></p>
+                            </div>
+                        </div>
+                    </section>
+                    <section className='portfoliojobswrapper sncsjobwrapper'>
+                        <div className='portwordswrapper'>
+                            <h2><a href="https://codepen.io/Peter-Adelakun"
+                                target="_blank"
+                                rel="noreferrer">CodePen</a></h2>
+                            <p>Explore my CodePen portfolio for concise and elegant code snippets that
+                                showcase my expertise in creating responsive web elements with meticulous attention to detail,
+                                delivering seamless user experiences with a touch of creativity.
+                                Each snippet exemplifies my proficiency in HTML, CSS, and JavaScript,
+                                capturing the essence of modern web design and interactivity.</p>
+                            <div className='portlogowrapper'>
+                                <a href="https://codepen.io/Peter-Adelakun"
+                                    target="_blank"
+                                    rel="noreferrer"><img src={cp} alt="CPlogo" /></a>
+                                <p><a href="https://codepen.io/Peter-Adelakun"
+                                    target="_blank"
+                                    rel="noreferrer">View my pen</a></p>
                             </div>
                         </div>
                     </section>
