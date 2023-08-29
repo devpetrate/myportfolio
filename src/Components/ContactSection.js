@@ -33,7 +33,7 @@ function ContactSection() {
 
             }
         } catch (error) {
-            console.log(error)
+            console.log("Error: ", error)
             // Handle error if needed
         }
         setEmail('');
@@ -115,7 +115,7 @@ function ContactSection() {
                             onChange={(e) => setMessage(e.target.value)}
                         ></textarea>
                         <button disabled={!name || !email || !message} type='submit'>Contact Me!</button>
-                        {submitted && <p>Thank You! Your response has been noted.</p>}
+                        {submitted && <p>Thank You! Will get back to you in a minute.</p>}
                     </form>
                 </section>
                 <section className='contactrights'>
