@@ -114,8 +114,12 @@ footer {
   color: #ffffff;
   margin-top: 10px;
 }
+.contactrights {
+  display: flex;
+  justify-content: space-around;
+}
 .contactrights p {
-  width: auto;
+  width: 70%;
   font-family: "Inconsolata", monospace;
   font-size: 15px;
   color: #ffffff;
@@ -138,9 +142,13 @@ footer {
   .contactlogowrapper div p {
     font-size: smaller;
   }
-  .contactlogowrapper div img {
+  .contactlogowrapper div img,
+  .goupimg {
     width: 47px;
     height: 38px;
+  }
+  .contactrights a {
+    align-self: flex-end;
   }
 }
 @media screen and (width <= 1024px) {

@@ -48,7 +48,7 @@
   box-shadow: 0px 0px 0px #bc635c;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 840px) {
   /* .mainword {
     background-image: url(../images/mainlogo.png);
     background-size: contain;

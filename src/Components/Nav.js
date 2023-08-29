@@ -15,7 +15,7 @@ function Nav() {
     };
 
     return (
-        <header className="navcontainer">
+        <header className="navcontainer" id="nav">
             <div >
                 <Link to="/"><img className="navimg" src={logo} alt="Logo" onClick={handleListItemClick} /></Link>
                 <nav>

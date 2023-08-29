@@ -17,6 +17,9 @@
   background-color: #ffd700;
   border-radius: 10px;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   min-height: 100vh;
   /* font-family: 'Playfair Display', serif; */

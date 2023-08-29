@@ -3,6 +3,7 @@ import xlogo from '../images/xlogo.svg'
 import linkedlogo from '../images/linkedinlogo.svg'
 import emaillogo from '../images/emaillogo.svg'
 import githublogo from '../images/GitHub.svg'
+import goup from '../images/gouplogo.svg'
 import React, { useState } from 'react';
 
 
@@ -120,6 +121,9 @@ function ContactSection() {
                 </section>
                 <section className='contactrights'>
                     <p>All rights reserved © 2023</p>
+                    <a
+                        href="#nav"
+                    ><img className='goupimg' src={goup} alt="gouplogo" /></a>
                 </section>
             </div>
         </footer>
