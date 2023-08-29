@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.553ba31c.css",
-    "main.js": "/myportfolio/static/js/main.e46f3f0a.js",
+    "main.css": "/myportfolio/static/css/main.3b0abddf.css",
+    "main.js": "/myportfolio/static/js/main.abb5cfcc.js",
     "static/js/787.1ed0c42c.chunk.js": "/myportfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/littlelemon.png": "/myportfolio/static/media/littlelemon.b48337097cbfea68c461.png",
     "static/media/mainlogo.png": "/myportfolio/static/media/mainlogo.7ae9353abbce36d6ba7c.png",
@@ -17,6 +17,7 @@
     "static/media/codepenicon.svg": "/myportfolio/static/media/codepenicon.32f3d47b1bb09609e559b252d47639fa.svg",
     "static/media/GitHub.svg": "/myportfolio/static/media/GitHub.6fbf5dd56b1d4608b4c70e3154987716.svg",
     "static/media/emaillogo.svg": "/myportfolio/static/media/emaillogo.09a31ff1dd4853f099e7f3a5217f304a.svg",
+    "static/media/gouplogo.svg": "/myportfolio/static/media/gouplogo.9c3d435b07b15f859539814130a44604.svg",
     "static/media/xlogo.svg": "/myportfolio/static/media/xlogo.fde578891c6e14109a238e15c9d9f7e4.svg",
     "static/media/linkedinlogo.svg": "/myportfolio/static/media/linkedinlogo.df9482268dcff1c9b9234bdd390f313f.svg",
     "index.html": "/myportfolio/index.html",
@@ -25,12 +26,12 @@
     "static/media/htmlsign.svg": "/myportfolio/static/media/htmlsign.64d3122fae053a36d5db9c7eecfe4012.svg",
     "static/media/reactsign.svg": "/myportfolio/static/media/reactsign.75617c8d6ce0af578cf8c219250bed76.svg",
     "static/media/uisign.svg": "/myportfolio/static/media/uisign.5226728b68d3674566b0435311b3781a.svg",
-    "main.553ba31c.css.map": "/myportfolio/static/css/main.553ba31c.css.map",
-    "main.e46f3f0a.js.map": "/myportfolio/static/js/main.e46f3f0a.js.map",
+    "main.3b0abddf.css.map": "/myportfolio/static/css/main.3b0abddf.css.map",
+    "main.abb5cfcc.js.map": "/myportfolio/static/js/main.abb5cfcc.js.map",
     "787.1ed0c42c.chunk.js.map": "/myportfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.553ba31c.css",
-    "static/js/main.e46f3f0a.js"
+    "static/css/main.3b0abddf.css",
+    "static/js/main.abb5cfcc.js"
   ]
 }
