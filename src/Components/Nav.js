@@ -26,7 +26,7 @@ function Nav() {
                         <span></span>
                     </button>
                     <ul id="navul" className={menuOpen ? 'active1' : ''}>
-                        <a href="https://drive.google.com/file/d/1xQ7Pt8OFnoEvjiOYX6TkNalhVdgwJ95u/view?usp=sharing"
+                        <a href="https://drive.google.com/file/d/1fqSCrgJY5G5k0BcjuHyrfU49XIOPhkXc/view?usp=sharing"
                             target="_blank"
                             rel="noreferrer">
                             <li onClick={handleListItemClick}>RESUME</li></a>

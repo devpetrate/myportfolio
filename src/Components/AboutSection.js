@@ -19,7 +19,7 @@ function AboutSection() {
                     dynamic world of technology.</span> I'm enthusiastic about the opportunity to collaborate with experienced
                 developers, bringing fresh insights and a strong foundation in front-end development to future projects.</p>
             <section>
-                <a href="https://drive.google.com/file/d/1xQ7Pt8OFnoEvjiOYX6TkNalhVdgwJ95u/view?usp=sharing"
+                <a href="https://drive.google.com/file/d/1fqSCrgJY5G5k0BcjuHyrfU49XIOPhkXc/view?usp=sharing"
                     target="_blank"
                     rel="noreferrer">
                     <button >Download CV</button></a>
