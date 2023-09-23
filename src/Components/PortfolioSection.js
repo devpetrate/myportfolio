@@ -1,9 +1,9 @@
 import './PortfolioSection.css'
 import React from 'react'
-import Portimg1 from '../images/interactivecard.png'
+import dictimg from '../images/dictionarypage.png'
+import movieimg from '../images/moviepage.png'
 import gitlogo from '../images/GitHub.svg'
 import weblogo from '../images/Internet.svg'
-import portimg2 from '../images/littlelemon.png'
 import { Link } from 'react-router-dom';
 
 
@@ -13,45 +13,45 @@ function Portfoliosection() {
             <h1><span class="underline">Po</span>rtfolio</h1>
             <section className='portfoliojobswrapper'>
                 <div className='portwordswrapper'>
-                    <h2>Interactive Card</h2>
-                    <p>Built using: HTML, CSS and JavaScript</p>
+                    <h2>English Dictionary</h2>
+                    <p>Built using: HTML, CSS, JavaScript and API</p>
                     <div className='portlogowrapper'>
-                        <a href="https://github.com/devpetrate/interactive-card"
+                        <a href="https://github.com/devpetrate/dictionary"
                             target="_blank"
                             rel="noreferrer"><img src={gitlogo} alt="gitlogo" /></a>
-                        <p><a href="https://github.com/devpetrate/interactive-card"
+                        <p><a href="https://github.com/devpetrate/dictionary"
                             target="_blank"
                             rel="noreferrer">Github</a></p>
-                        <a href="https://devpetrate.github.io/interactive-card/"
+                        <a href="https://devpetrate.github.io/dictionary/"
                             target="_blank"
                             rel="noreferrer"><img src={weblogo} alt="gitlogo" /></a>
-                        <p><a href="https://devpetrate.github.io/interactive-card/"
+                        <p><a href="https://devpetrate.github.io/dictionary/"
                             target="_blank"
                             rel="noreferrer">Website</a></p>
                     </div>
                 </div>
-                <img className='workpic' src={Portimg1} alt="" />
+                <img className='workpic' src={dictimg} alt="" />
             </section>
             <section className='portfoliojobswrapper'>
                 <div className='portwordswrapper'>
-                    <h2>Little Lemon Restaurant</h2>
-                    <p>Built using: React</p>
+                    <h2>Movie Page</h2>
+                    <p>Built using: HTML, CSS, JavaScript and API</p>
                     <div className='portlogowrapper'>
-                        <a href="https://github.com/devpetrate/Little-Lemon"
+                        <a href="https://github.com/devpetrate/moviePage"
                             target="_blank"
                             rel="noreferrer"><img src={gitlogo} alt="gitlogo" /></a>
-                        <p><a href="https://github.com/devpetrate/Little-Lemon"
+                        <p><a href="https://github.com/devpetrate/moviePage"
                             target="_blank"
                             rel="noreferrer">Github</a></p>
-                        <a href="https://devpetrate.github.io/Little-Lemon/"
+                        <a href="https://devpetrate.github.io/moviePage/"
                             target="_blank"
                             rel="noreferrer"><img src={weblogo} alt="gitlogo" /></a>
-                        <p><a href="https://devpetrate.github.io/Little-Lemon/"
+                        <p><a href="https://devpetrate.github.io/moviePage/"
                             target="_blank"
                             rel="noreferrer">Website</a></p>
                     </div>
                 </div>
-                <img className='workpic' src={portimg2} alt="" />
+                <img className='workpic' src={movieimg} alt="" />
             </section>
             <Link to="/portfolio"><button>Explore More!</button></Link>
         </div>
