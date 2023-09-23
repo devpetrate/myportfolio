@@ -1,16 +1,19 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.3b0abddf.css",
-    "main.js": "/myportfolio/static/js/main.7f5c86d4.js",
+    "main.js": "/myportfolio/static/js/main.0118d9b1.js",
     "static/js/787.1ed0c42c.chunk.js": "/myportfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/moviepage.png": "/myportfolio/static/media/moviepage.bcc04ebb0632f8b51887.png",
     "static/media/littlelemon.png": "/myportfolio/static/media/littlelemon.b48337097cbfea68c461.png",
     "static/media/mainlogo.png": "/myportfolio/static/media/mainlogo.7ae9353abbce36d6ba7c.png",
     "static/media/interactivecard.png": "/myportfolio/static/media/interactivecard.14e5d887339b5c112de3.png",
+    "static/media/intropage.png": "/myportfolio/static/media/intropage.8fd287dab086a3f96621.png",
     "static/media/metacert.png": "/myportfolio/static/media/metacert.225f9290ac92d1d5a358.png",
     "static/media/frontfcccert.png": "/myportfolio/static/media/frontfcccert.28b0a6d81516707b8210.png",
     "static/media/jsfcccert.png": "/myportfolio/static/media/jsfcccert.9656a9382e504602851c.png",
     "static/media/respfcccert.png": "/myportfolio/static/media/respfcccert.b2947c5d1414278f3789.png",
     "static/media/newslettersignup.png": "/myportfolio/static/media/newslettersignup.736f1f6341047d91040f.png",
+    "static/media/dictionarypage.png": "/myportfolio/static/media/dictionarypage.02f9952f86effb6c1186.png",
     "static/media/loginform.png": "/myportfolio/static/media/loginform.702f6551fee3c3075d95.png",
     "static/media/advicegenerator.png": "/myportfolio/static/media/advicegenerator.642172fe6338a72370b5.png",
     "static/media/Internet.svg": "/myportfolio/static/media/Internet.ab725636d5ad2224b41d115c6c431e98.svg",
@@ -27,11 +30,11 @@
     "static/media/reactsign.svg": "/myportfolio/static/media/reactsign.75617c8d6ce0af578cf8c219250bed76.svg",
     "static/media/uisign.svg": "/myportfolio/static/media/uisign.5226728b68d3674566b0435311b3781a.svg",
     "main.3b0abddf.css.map": "/myportfolio/static/css/main.3b0abddf.css.map",
-    "main.7f5c86d4.js.map": "/myportfolio/static/js/main.7f5c86d4.js.map",
+    "main.0118d9b1.js.map": "/myportfolio/static/js/main.0118d9b1.js.map",
     "787.1ed0c42c.chunk.js.map": "/myportfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b0abddf.css",
-    "static/js/main.7f5c86d4.js"
+    "static/js/main.0118d9b1.js"
   ]
 }
